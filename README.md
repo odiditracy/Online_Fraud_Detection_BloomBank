@@ -5,6 +5,8 @@ Blossom Bank also known as BB PLC is a multinational financial services group, t
 - Effectively detect and identify anomalies in the transactions that would normaly be undetected using traditional methods
 - Improve it's cyber sercurity policies.
 - Solidify the trust in the platform and amongst their customers by preventing fraudulent transactions.
+
+
 This Readme section is to walk you through my codes and processes and will be useful to Data Analysts and Scientist. For the Stakeholder's report and insights, check the Stakeholders Report PDF or watch the presentation 
 https://www.canva.com/design/DAFJ42pgpa0/iIWrYkH_auv3R8Z1W1slTA/view?utm_content=DAFJ42pgpa0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent#8
 The dataset used was provided by Blossom Bank, a UK based bank. The transactional data set contained 10 columns and 1,048,575 rows.
@@ -28,17 +30,17 @@ Please refer to the jupyter file for more technical details and the Stakeholders
 
 # Feature Engineering.
 I observed that some columns would not be processed during the deployment of the models becuse that were categorical hence my decision to convert them to numerical values (encoding).
-The nameOrg and nameDest were deleted because they had no significant importance in our models and I encoded the type column by creating 5 dummy columns being that there are 5 unique values in the type column.
+The nameOrg and nameDest were deleted because they had no significant importance in our models and I encoded the type column by creating 5 dummy columns being that there were 5 unique values in the type column.
 
 
 # Model Deployment
 I deployed unsupervised machine learning models (classification and regression) Linear Regression, Random Forest and Decision Tree. Of the 3 models, Random Forest was the most accurate at detecting fraudulent transactions.
-Also, the confusion matrix also showed that it had the best results post production as well.
+Also, the confusion matrix also showed it had the best results post production.
 
 
 # Conclusion
 Based on the insights and recommendations in the Stakeholders Report, if implemented, the bank will effectively detect and identify anomalies in the transactions that would normaly be undetected using traditional methods 
-and also imporve it's banking practices.
+and also improve it's banking practices.
 
 
 
