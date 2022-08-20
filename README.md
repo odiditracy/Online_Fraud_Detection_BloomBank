@@ -1,0 +1,2 @@
+# Online_Fraud_Detection_BloomBank
+In 2018, fraud cost the world economy £3.2 trillion, according to Infosecurity Magazine. Fraud losses for some companies might amount to more than 10% of their overall expenses. Such significant losses encourage businesses to look for fresh ways to avoid, catch, and get rid of fraud. The most effective technology tool to combat financial fraud yet is machine learning. 
