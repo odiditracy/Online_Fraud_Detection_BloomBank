@@ -34,7 +34,7 @@ The nameOrg and nameDest were deleted because they had no significant importance
 
 
 # Model Deployment
-I deployed unsupervised machine learning models (classification and regression) Linear Regression, Random Forest and Decision Tree. Of the 3 models, Random Forest was the most accurate at detecting fraudulent transactions.
+I deployed supervised machine learning models (classification and regression) Linear Regression, Random Forest and Decision Tree. Of the 3 models, Random Forest was the most accurate at detecting fraudulent transactions.
 Also, the confusion matrix also showed it had the best results post production.
 
 
